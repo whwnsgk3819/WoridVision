@@ -5,6 +5,10 @@
     font-family: 'NanumGothic', sans-serif !important;
 
 }
+.header{
+    margin-top: 16px;
+    height: 106px;
+}
 .container{
     height:100%;
     width:1200px;  
@@ -38,6 +42,7 @@
 .menu-logo{
     margin:60px 25px 0px 0px;
     float:left;
+    cursor: pointer;
 }
 .menu-middle{
     position: relative;
@@ -55,6 +60,7 @@
     right:0px;
 }
 .menu-middle-textbox{
+    cursor: pointer;
     height: 38px;
     width: 160px;
     background-color: #FF6600;
@@ -504,6 +510,7 @@ h2{
 }
 
 .news-link{
+    cursor: pointer;
     width:191px;
     height: 51px;
     color:white;
@@ -571,28 +578,14 @@ h3{
 .left-box{
     height: 0px;
 }
-/* .fixed{
-    position: relative;
-    right:40px;
-    top:140px;
-    position: fixed;
-}
-.fixed{
-    position: relative;
-    right:40px;
-    top:140px;
-    position: fixed;
-}
-.fixed:hover{
-    background-image:url(../assets/images/btn_float_on.png) 
-} */
 .float-btn{
+    cursor: pointer;
     background-position:bottom;
     background-size:100%;
     width:140px;
     height:223px;
     position: fixed;
-    z-index: 10;
+    z-index: 9999;
     top:147px;
     right: 38px;
     background-image: url(../assets/images/btn_float.png);
@@ -606,7 +599,6 @@ h3{
 }
 .light:hover{
     color:#FF6600;
-    
 }
 .news-link:hover{
     width:191px;
@@ -629,6 +621,7 @@ h3{
     font-size: 12px;
     border: 1px solid #AAAAAA;
     color:#666666;
+    cursor: pointer;
 }
 .section-six-left{
     background-image: url(../assets/images/section6/btn_sl_left.png);
@@ -664,10 +657,6 @@ h3{
     height:100%;
     text-indent:-9999px;
 }
-
-
-
-/*BXSLIDER*/
 .bx-wrapper{
     border:none !important;
     background: none;

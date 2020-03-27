@@ -16,6 +16,7 @@
 
 - HTML
 - CSS
+- Javascript
 - jQuery
 
 ### 4. 사이트 미리보기

@@ -1,670 +1,668 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'NanumGothic', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "NanumGothic", sans-serif !important;
+}
+.header {
+  margin-top: 16px;
+  height: 106px;
+}
+.container {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.nav {
+  margin: 0px 0px 16px 0px;
+}
+.nav:after {
+  display: block;
+  clear: both;
+  content: " ";
+}
+.menu_list {
+  float: right;
 
+  font-weight: 400;
 }
-.header{
-    margin-top: 16px;
-    height: 106px;
+.menu_list:after {
+  display: block;
+  clear: both;
+  content: " ";
 }
-.container{
-    height:100%;
-    width:1200px;  
-    margin:0 auto;
-    position: relative;
-    text-align: center;
+.menu_list_text {
+  float: left;
+  margin: 14px 7px;
+  font-size: 13px;
 }
-.nav{
-    margin:0px 0px 16px 0px;
+.menu-logo {
+  margin: 60px 25px 0px 0px;
+  float: left;
+  cursor: pointer;
 }
-.nav:after{
-    display: block;
-    clear: both;
-    content: " ";
+.menu-middle {
+  position: relative;
 }
-.menu_list{
-    float:right;
+.menu-middle-text {
+  float: left;
+  margin: 68px 25px 0px 25px;
+  font-size: 17px;
 
-    font-weight: 400;
-}
-.menu_list:after{
-    display: block;
-    clear: both;
-    content: " ";
-}
-.menu_list_text{
-    float:left;
-    margin: 14px 7px;
-    font-size:13px;
-}
-.menu-logo{
-    margin:60px 25px 0px 0px;
-    float:left;
-    cursor: pointer;
-}
-.menu-middle{
-    position: relative;
-}
-.menu-middle-text{
-    float:left;
-    margin:68px 25px 0px 25px;
-    font-size:17px;
- 
-    font-weight: 600;
-}
-.menu-middle-box{
-    position: absolute;
-    top:36px;
-    right:0px;
-}
-.menu-middle-textbox{
-    cursor: pointer;
-    height: 38px;
-    width: 160px;
-    background-color: #FF6600;
-    float:right;
-    text-align: center;
-    line-height: 38px;
-    margin:18px 0px 0px 120px;
-    font-size:17px;
-    color:white;
-    border-radius: 2px;
-}
-.section-one{
-    height:1124px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section01/bg_top.jpg);
-    position: relative;
-}
-.section-one .container{
-    padding-top:107px;
-}
-.section-box{
-    text-align: center;
-}
-.sc1-text1{
-    font-size:24px;
-    margin: 32px auto;
-    line-height: 40px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    font-weight: bold;
-    letter-spacing: -0.02em;
-}
-.sc1-text2{
-    width:457px;
-    height:74px;
-    background-color:#FF6600;
-    text-align: center;
-    line-height: 74px;
-    color:white;
-    font-size: 22px;
-    border:none;
-    font-weight: bold;
-    letter-spacing: -0.05em;
-}
-.sc1-box{
-    position: relative;
-    top:550px;
-    left:230px;
-    
-}
-.sc1-text3{
-    color:white;  
-    font-size:11px;
-    text-align: center;
-    line-height: 20px;
-    position: absolute;
-    bottom:28px;
-    right:38px;
-    background-color: rgba(0,0,0,0.3);
-    padding: 0px 10px;
-}
-.section-two{
-    height:938px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section2/bg_01.jpg);
-}
-.section-two .container{
-    padding-top:174px;
-}
-.section-box2{
-    float:left;
-    text-align: left;
-    line-height: 17px;
-}
-.sc2-text1{
-    font-size:23px;
-    color: #CECECE;
-    margin: 40px 0px 55px 0px;
-    line-height: 34px;
-    letter-spacing: -0.05em;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-}
-.sc2-text1-fontColor{
-    color:#FF9859;
-    font-size:23px;
-    margin: 32px auto;
-    line-height: 40px;
-    letter-spacing: -0.05em;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-}
-span{
-    color:#FF9859;
-}
-.bar{
-    width:465px;
-    height:1px;
-    background-color:#CECECE;
-    margin:30px auto;
-}
-.sc2-text2{
-    font-size:19px;
-    color: #CECECE;
-    line-height: 30px;
-    margin:6px auto;
-    letter-spacing: -0.05em;
-}
-.sc2-text2--bold{
-    font-weight: bold;
-}
-.sc2-text3{
-    font-size:15px;
-    color: #C5C5C5;
-    letter-spacing: -0.05em;
-}
-.section-three{
-    height:946px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section3/bg_02.jpg) 
-}
-.section-three .container{
-    padding-top:170px;
-}
-.im3{
-    float:left;
-}
-.sc3-textbox{
-    margin-top: 38px;
-    float:right;
-    text-align: left;
-    line-height: 34px;
-    position: relative;
-    bottom:40px;
-}
-.section-box3:after{
-    display: block;
-    content: " ";
-    clear: both;
-}
-.sc3-text1{
-    font-size:23px;
-    color: #CECECE;
-    margin-bottom: 42px;
-    letter-spacing: -0.05em;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-}
-.sc3-text1--bold{
-    font-weight: bold;
-    color: #CECECE;
-}
-.section-four{
-    height:1018px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section4/bg_03.jpg) 
-}
-.section-four .container{
-    padding-top:176px;
-}
-.sc4-text1{
-    font-size:23px;
-    color:#1C1E22;
-    margin: 32px auto;
-    line-height: 34px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: 600;
-}
-.sc4-text1--color{
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    color:#D75E13;
-}
-.section-box4{
-    float:left;
-    text-align: left;
-}
-.im4{
-    position: relative;
-    top: 51px;
-}
-.section-middle{
-    height: 628px;
-}
-.section-middle .container{
-    padding-top:140px;
-}
-.middle-text1{
-    font-size: 35px;
-    margin-bottom:28px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: bold;
-}
-.middle-text2{
-    font-size: 48px;
-    margin-bottom:47px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: 900;
-}
-.middle-text3{
-    font-size: 30px;
-    line-height:40px;
-    margin-bottom:55px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-}
-.middle-text3--color{
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    color:#FF7A22;
-    font-weight: 500;
-}
-.section-five{
-    height:1211px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section5/bg_04.jpg) 
-}
-.section-five .container{
-    padding-top:140px;
-}
-.sc5-text1{
-    color:white;
-    font-size:34px;
-    margin-bottom:21px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: 600;
-}
-.sc5-text2{
-    color:white;
-    font-size:52px;
-    margin-bottom:109px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: 900;
-}
-.top-text{
-    color:white;
-    font-size:20px;
-    line-height: 34px;
-    margin-bottom:124px;
-    letter-spacing: -0.02em;
-}
-.top-text--bold{
-    font-weight: 900;
-    color:white;
-}
-.middle-text{
-    font-size:22px;
-    line-height: 36px;
-    margin-bottom:66px;
-    letter-spacing: -0.05em;
-    font-weight: 900;
-}
-.im5{
-    margin-bottom:42px;
-}
-.bottom-text{
-    width:895px;
-    height:30px;
-    font-size: 14px;
-    border: 1px solid #C5C0B6;
-    text-align: center;
-    line-height: 30px;
-    margin: 0 auto;
-    color:#77736A;
-    font-weight: 500;
-    letter-spacing: -0.05em;
-}
-.section-six{
-    position:relative;
-    height:1209px;
-    background-position: center;
-    background-size:cover;
-    background-image:url(../assets/images/section6/bg_05.jpg) 
-}
-.section-six .container{
-    padding-top:138px;
-}   
-.sc6-text2{
-    color:white;
-    font-size:52px;
-    margin-bottom:61px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.05em;
-    font-weight: 900;
-}
-.im6{
-    width:1000px;
-    height: 654px;
-    margin-left: 100px;
-}
-.sc6-text3{
-    color:white;
-    font-size:29px;
-    line-height: 40px;
-    font-family: 'Nanum Myeongjo', sans-serif !important;
-    letter-spacing: -0.03em;
-    font-weight: 200;
-}
-.section-last{
-    height:532px;
-    background-position: center;
-}
-.section-last .container{
-    padding-top:42px;
-} 
-.left-top-box{
-    text-align: left;
-}
-.im7{
-    margin-bottom: 15px;
-}
-.left-top-text{
-    font-size: 14px;
-    letter-spacing: -1px;
-    line-height: 34px;
-    font-weight: 400;
-}
-h2{
-    margin-top: 40px;
-    margin-bottom: 12px;
-    color:#FF6600;
-    font-size: 16px;
-    font-weight: 500;
-}
-.left-bottom-text--bold{
-    font-weight: 500;
-    color: #333333;
-}
-.left-bottom-box{
-    text-align: left;
-    line-height: 32px;
-    height: 30px;
-    
-}
-.section-lastbox:after{
-    display: block;
-    content: " ";
-    clear: both;
-}
-.left-bottom-box:after{
-    display: block;
-    content: " ";
-    clear: both;
-}
-.left-box:after{
-    display: block;
-    content: " ";
-    clear: both;
-}
-.last-left-bottom-text-one{
-    float:left;
-    margin:0px 80px 0px 0px;
-    font-weight: 400;
-    line-height: 34px;
-    font-size: 14px;
-}
-.last-left-bottom-text-two{
-    float:left;
-    margin:0px 50px 0px 0px;
-    font-weight: 400;
-    line-height: 34px;
-    font-size: 14px;
-}
-.last-left-bottom-text-three{
-    float:left;
-    font-weight: 400;
-    line-height: 34px;
-    font-size: 14px;
-}
-.left-bottom-book{
-    font-size: 13px;
-}
-.bar-two{
-    width:1px;
-    height:141px;
-    background-color: #eeee;
-    margin:80px auto;
-    line-height: 40px;
-    position: relative;
-    left: 194px;
-    bottom:290px;
-}
-.center-box{
-    position: relative;
-    bottom:55px;
-    left:470px;
-    text-align: left;
-    font-size:13px;
-    float:left;
-    margin-top: 101px;
-    line-height: 30px;
-}
-.left-box{
-    float:left;
-    height: 532px;
-    width:  420px;
-}
-.center-box-top{
-    margin-bottom: 81px;
-}
-.center-box-top-text{
-    line-height: 34px;
-    font-weight: 400;
-    font-size: 14px;
-}
-.center-box-bottom-text{
-    line-height: 34px;
-    font-weight: 400;
-    font-size: 14px;
-}
-.search{
-    width: 389px;
-    height: 42px;
-    background:#fff;
-    color: #C4C4C4;
-    padding: 6px;
-    margin-bottom: 14px;
-    border:1px solid #ddd;
-    font-family: 'Lato',  sans-serif !important;
-    font-style: italic;
-    transition: all 0.5s;
-    cursor: pointer;
-    font-size: 14px;
+  font-weight: 600;
+}
+.menu-middle-box {
+  position: absolute;
+  top: 36px;
+  right: 0px;
+}
+.menu-middle-textbox {
+  cursor: pointer;
+  height: 38px;
+  width: 160px;
+  background-color: #ff6600;
+  float: right;
+  text-align: center;
+  line-height: 38px;
+  margin: 18px 0px 0px 120px;
+  font-size: 17px;
+  color: white;
+  border-radius: 2px;
+}
+.section-one {
+  height: 1124px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section01/bg_top.jpg);
+  position: relative;
+}
+.section-one .container {
+  padding-top: 107px;
+}
+.section-box {
+  text-align: center;
+}
+.sc1-text1 {
+  font-size: 24px;
+  margin: 32px auto;
+  line-height: 40px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+.sc1-text2 {
+  width: 457px;
+  height: 74px;
+  background-color: #ff6600;
+  text-align: center;
+  line-height: 74px;
+  color: white;
+  font-size: 22px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+.sc1-box {
+  position: relative;
+  top: 550px;
+  left: 230px;
+}
+.sc1-text3 {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  bottom: 28px;
+  right: 38px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 10px;
+}
+.section-two {
+  height: 938px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section2/bg_01.jpg);
+}
+.section-two .container {
+  padding-top: 174px;
+}
+.section-box2 {
+  float: left;
+  text-align: left;
+  line-height: 17px;
+}
+.sc2-text1 {
+  font-size: 23px;
+  color: #cecece;
+  margin: 40px 0px 55px 0px;
+  line-height: 34px;
+  letter-spacing: -0.05em;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+}
+.sc2-text1-fontColor {
+  color: #ff9859;
+  font-size: 23px;
+  margin: 32px auto;
+  line-height: 40px;
+  letter-spacing: -0.05em;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+}
+span {
+  color: #ff9859;
+}
+.bar {
+  width: 465px;
+  height: 1px;
+  background-color: #cecece;
+  margin: 30px auto;
+}
+.sc2-text2 {
+  font-size: 19px;
+  color: #cecece;
+  line-height: 30px;
+  margin: 6px auto;
+  letter-spacing: -0.05em;
+}
+.sc2-text2--bold {
+  font-weight: bold;
+}
+.sc2-text3 {
+  font-size: 15px;
+  color: #c5c5c5;
+  letter-spacing: -0.05em;
+}
+.section-three {
+  height: 946px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section3/bg_02.jpg);
+}
+.section-three .container {
+  padding-top: 170px;
+}
+.im3 {
+  float: left;
+}
+.sc3-textbox {
+  margin-top: 38px;
+  float: right;
+  text-align: left;
+  line-height: 34px;
+  position: relative;
+  bottom: 40px;
+}
+.section-box3:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.sc3-text1 {
+  font-size: 23px;
+  color: #cecece;
+  margin-bottom: 42px;
+  letter-spacing: -0.05em;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+}
+.sc3-text1--bold {
+  font-weight: bold;
+  color: #cecece;
+}
+.section-four {
+  height: 1018px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section4/bg_03.jpg);
+}
+.section-four .container {
+  padding-top: 176px;
+}
+.sc4-text1 {
+  font-size: 23px;
+  color: #1c1e22;
+  margin: 32px auto;
+  line-height: 34px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.sc4-text1--color {
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  color: #d75e13;
+}
+.section-box4 {
+  float: left;
+  text-align: left;
+}
+.im4 {
+  position: relative;
+  top: 51px;
+}
+.section-middle {
+  height: 628px;
+}
+.section-middle .container {
+  padding-top: 140px;
+}
+.middle-text1 {
+  font-size: 35px;
+  margin-bottom: 28px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+}
+.middle-text2 {
+  font-size: 48px;
+  margin-bottom: 47px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+.middle-text3 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 55px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+}
+.middle-text3--color {
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  color: #ff7a22;
+  font-weight: 500;
+}
+.section-five {
+  height: 1211px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section5/bg_04.jpg);
+}
+.section-five .container {
+  padding-top: 140px;
+}
+.sc5-text1 {
+  color: white;
+  font-size: 34px;
+  margin-bottom: 21px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.sc5-text2 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 109px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+.top-text {
+  color: white;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 124px;
+  letter-spacing: -0.02em;
+}
+.top-text--bold {
+  font-weight: 900;
+  color: white;
+}
+.middle-text {
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 66px;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+.im5 {
+  margin-bottom: 42px;
+}
+.bottom-text {
+  width: 895px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #c5c0b6;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  color: #77736a;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+.section-six {
+  position: relative;
+  height: 1209px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/section6/bg_05.jpg);
+}
+.section-six .container {
+  padding-top: 138px;
+}
+.sc6-text2 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 61px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+.im6 {
+  width: 1000px;
+  height: 654px;
+  margin-left: 100px;
+}
+.sc6-text3 {
+  color: white;
+  font-size: 29px;
+  line-height: 40px;
+  font-family: "Nanum Myeongjo", sans-serif !important;
+  letter-spacing: -0.03em;
+  font-weight: 200;
+}
+.section-last {
+  height: 532px;
+  background-position: center;
+}
+.section-last .container {
+  padding-top: 42px;
+}
+.left-top-box {
+  text-align: left;
+}
+.im7 {
+  margin-bottom: 15px;
+}
+.left-top-text {
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 34px;
+  font-weight: 400;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 12px;
+  color: #ff6600;
+  font-size: 16px;
+  font-weight: 500;
+}
+.left-bottom-text--bold {
+  font-weight: 500;
+  color: #333333;
+}
+.left-bottom-box {
+  text-align: left;
+  line-height: 32px;
+  height: 30px;
+}
+.section-lastbox:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.left-bottom-box:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.left-box:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.last-left-bottom-text-one {
+  float: left;
+  margin: 0px 80px 0px 0px;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 14px;
+}
+.last-left-bottom-text-two {
+  float: left;
+  margin: 0px 50px 0px 0px;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 14px;
+}
+.last-left-bottom-text-three {
+  float: left;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 14px;
+}
+.left-bottom-book {
+  font-size: 13px;
+}
+.bar-two {
+  width: 1px;
+  height: 141px;
+  background-color: #eeee;
+  margin: 80px auto;
+  line-height: 40px;
+  position: relative;
+  left: 194px;
+  bottom: 290px;
+}
+.center-box {
+  position: relative;
+  bottom: 55px;
+  left: 470px;
+  text-align: left;
+  font-size: 13px;
+  float: left;
+  margin-top: 101px;
+  line-height: 30px;
+}
+.left-box {
+  float: left;
+  height: 532px;
+  width: 420px;
+}
+.center-box-top {
+  margin-bottom: 81px;
+}
+.center-box-top-text {
+  line-height: 34px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.center-box-bottom-text {
+  line-height: 34px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.search {
+  width: 389px;
+  height: 42px;
+  background: #fff;
+  color: #c4c4c4;
+  padding: 6px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  font-family: "Lato", sans-serif !important;
+  font-style: italic;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-::placeholder{
-  color: #C4C4C4;
+::placeholder {
+  color: #c4c4c4;
 }
-.search:hover{
-    border-color:#000;
-    font-style: normal;
-    color:#000;
+.search:hover {
+  border-color: #000;
+  font-style: normal;
+  color: #000;
 }
-.search:hover::placeholder{
-    color:#000;
+.search:hover::placeholder {
+  color: #000;
 }
-.search:focus{
-    border-color:#000;
-    font-style: normal;
-    color:#000;
+.search:focus {
+  border-color: #000;
+  font-style: normal;
+  color: #000;
 }
 
-.news-link{
-    cursor: pointer;
-    width:191px;
-    height: 51px;
-    color:white;
-    text-align: center;
-    line-height: 51px;
-    background-color: black;
-    margin-bottom: 77px;
+.news-link {
+  cursor: pointer;
+  width: 191px;
+  height: 51px;
+  color: white;
+  text-align: center;
+  line-height: 51px;
+  background-color: black;
+  margin-bottom: 77px;
 }
-.right-box{
-    position: relative;
-    left:20px;
-    text-align: left;
-    float:right;
-    height: 532px;
-    width:  420px;  
+.right-box {
+  position: relative;
+  left: 20px;
+  text-align: left;
+  float: right;
+  height: 532px;
+  width: 420px;
 }
-h3{
-    color:#FF6600;
-    font-size: 16px;
-    margin-bottom: 21px;
-    font-family: 'Lato',  sans-serif !important;
-    line-height: 16px;
-    font-weight: 700;
+h3 {
+  color: #ff6600;
+  font-size: 16px;
+  margin-bottom: 21px;
+  font-family: "Lato", sans-serif !important;
+  line-height: 16px;
+  font-weight: 700;
 }
-.right-bottom-title{
-    color:#FF6600;
-    font-size: 16px;
-    margin-bottom: 23px;
-    font-family: 'Lato',  sans-serif !important;
-    line-height: 16px;
-    font-weight: 700;
+.right-bottom-title {
+  color: #ff6600;
+  font-size: 16px;
+  margin-bottom: 23px;
+  font-family: "Lato", sans-serif !important;
+  line-height: 16px;
+  font-weight: 700;
 }
-.right-box-text-one{
-    float:left;
-    margin: 0px 70px 0px 0px;
-    font-size: 13px;
-    line-height: 30px;
-    margin-bottom: 24px;
+.right-box-text-one {
+  float: left;
+  margin: 0px 70px 0px 0px;
+  font-size: 13px;
+  line-height: 30px;
+  margin-bottom: 24px;
 }
-.right-text{
-    line-height: 34px;
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-    padding-left: 18px;
+.right-text {
+  line-height: 34px;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 18px;
 }
-.fab-icon{
-    position: absolute;
-    top:0px;
-    left:0px;
+.fab-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
-.bar-stick{
-    height: 0px;
+.bar-stick {
+  height: 0px;
 }
-.section-lastbox{
-    height: 30px;
+.section-lastbox {
+  height: 30px;
 }
-.right-box{
-    height: 0px;
+.right-box {
+  height: 0px;
 }
-.section-last{
-    height: 0px;
-    
+.section-last {
+  height: 0px;
 }
-.left-box{
-    height: 0px;
+.left-box {
+  height: 0px;
 }
-.float-btn{
-    cursor: pointer;
-    background-position:bottom;
-    background-size:100%;
-    width:140px;
-    height:223px;
-    position: fixed;
-    z-index: 9999;
-    top:147px;
-    right: 38px;
-    background-image: url(../assets/images/btn_float.png);
+.float-btn {
+  cursor: pointer;
+  background-position: bottom;
+  background-size: 100%;
+  width: 140px;
+  height: 223px;
+  position: fixed;
+  z-index: 9999;
+  top: 147px;
+  right: 38px;
+  background-image: url(../assets/images/btn_float.png);
 }
-.float-btn:hover{
-    background-image: url(../assets/images/btn_float_on.png);
+.float-btn:hover {
+  background-image: url(../assets/images/btn_float_on.png);
 }
-.light{
-    transition: all 0.3s;
-    cursor: pointer;
+.light {
+  transition: all 0.3s;
+  cursor: pointer;
 }
-.light:hover{
-    color:#FF6600;
+.light:hover {
+  color: #ff6600;
 }
-.news-link:hover{
-    width:191px;
-    height: 51px;
-    color:black;
-    text-align: center;
-    line-height: 51px;
-    background-color: white;
-    margin-bottom: 77px;
-    border:1px solid black;
+.news-link:hover {
+  width: 191px;
+  height: 51px;
+  color: black;
+  text-align: center;
+  line-height: 51px;
+  background-color: white;
+  margin-bottom: 77px;
+  border: 1px solid black;
 }
-.section-six-slider{
-    width: 100%;
+.section-six-slider {
+  width: 100%;
 }
-.select{
-    width: 191px;
-    height: 33px;
-    float:left;
-    margin-right: 11px;
-    font-size: 12px;
-    border: 1px solid #AAAAAA;
-    color:#666666;
-    cursor: pointer;
+.select {
+  width: 191px;
+  height: 33px;
+  float: left;
+  margin-right: 11px;
+  font-size: 12px;
+  border: 1px solid #aaaaaa;
+  color: #666666;
+  cursor: pointer;
 }
-.section-six-left{
-    background-image: url(../assets/images/section6/btn_sl_left.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:56px;
-    width:56px;
-    position:absolute;
-    top:618px;
-    left:70px;
-    z-index: 100;
+.section-six-left {
+  background-image: url(../assets/images/section6/btn_sl_left.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  top: 618px;
+  left: 70px;
+  z-index: 100;
 }
-.section-six-right{
-    background-image: url(../assets/images/section6/btn_sl_right.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:56px;
-    width:56px;
-    position:absolute;
-    top:618px;
-    right:70px;
-    z-index: 100;
+.section-six-right {
+  background-image: url(../assets/images/section6/btn_sl_right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  top: 618px;
+  right: 70px;
+  z-index: 100;
 }
-.section-six-left a{
-    display:block;
-    height:100%;
-    text-indent:-9999px;
+.section-six-left a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
 }
-.section-six-right a{
-    display:block;
-    height:100%;
-    text-indent:-9999px;
+.section-six-right a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
 }
-.bx-wrapper{
-    border:none !important;
-    background: none;
-    box-shadow:none;
+.bx-wrapper {
+  border: none !important;
+  background: none;
+  box-shadow: none;
 }
-.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
-    display: none;
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  display: none;
 }
-.bx-wrapper .bx-pager.bx-default-pager a{
-    display: none;
+.bx-wrapper .bx-pager.bx-default-pager a {
+  display: none;
 }
